@@ -23,4 +23,4 @@ $Mind->route('panel/banner/remove:banner_id', 'app/request/panel/banner/remove')
 $Mind->route('panel/banner/', 'app/views/panel/banner/banners');
 $Mind->route('panel/active_ads', 'app/views/panel/banner/active_ads');
 $Mind->route('panel/inactive_ads', 'app/views/panel/banner/inactive_ads');
-$Mind->route('panel/backup', 'app/request/backup');
+// $Mind->route('panel/backup', 'app/request/backup');
