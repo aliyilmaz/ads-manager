@@ -1,9 +1,9 @@
 <header class="header">
-    <a target="_blank" href="https://github.com/aliyilmaz/adsmanager" class="btn btn-secondary btn-sm rounded-0">
+    <a target="_blank" href="https://github.com/aliyilmaz/ads-manager" class="btn btn-secondary btn-sm rounded-0">
         <i class="bi bi-github"></i>
     </a>
     <a href="<?=$this->base_url;?>" class="btn border-0 fw-bold" style="font-size:12px;">
-        adsmanager
+        ads-manager
     </a>
     
     
