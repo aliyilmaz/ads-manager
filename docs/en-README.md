@@ -25,13 +25,13 @@ This command allows the creation of automatically generated files such as .htacc
 
 ### 2.2 Database
 
-Proje içeriklerinin tutulacağı veritabanı türü varsayılan olarak mysql olup, sqlite ve sqlsrv veritabanları da tercih edilebilir. Veritabanı adı varsayılan olarak ads'dir. Kurulum adımına geçilmeden önce bu isimde veritabanının daha önce oluşturulmadığına emin olunması gerekmektedir.
+The database type where the project contents will be kept is mysql by default, and sqlite and sqlsrv databases can also be preferred. The database name is ads by default.Before proceeding to the installation step, it is necessary to make sure that the database with this name has not been created before.
 
 ### 2.3 Security
 
 If you do not want other users to access the project, you can ensure that only you can access the project with information such as your ip address, operating system and browser name.
 
-For detailed information on this subject, you can read the [related] (https://github.com/aliyilmaz/Mind/blob/master/docs/tr-readme.md#firewall) article in the Mind Framework document.
+For detailed information on this subject, you can read the [related](https://github.com/aliyilmaz/Mind/blob/master/docs/en-readme.md#firewall) article in the Mind Framework document.
 
 
 ## 3. Install
