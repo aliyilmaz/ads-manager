@@ -7,10 +7,7 @@ $files = [
     'sqlsrv' => 'app/migration/sqlsrv_backup_2022_09_09_10_28_04.json'
 ];
 
-if(
-    $this->restore($files[$this->db['drive']])
-){
-    $this->redirect('login');
-}
+$this->restore($files[$this->db['drive']]);
+
 
 ?>
