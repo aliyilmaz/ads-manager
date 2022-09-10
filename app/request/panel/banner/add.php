@@ -54,12 +54,19 @@ if(isset($this->post['title'])){
 
    if(empty($this->errors)){
 
-      $image = $this->upload($this->post['image'], 'public/banners/'.date('Y-m-d').'/');
-      if(!empty($image)){
-         $values['image'] = $image[0]; 
+      if(!$this->is_type($this->post['image']['name'], ['jpeg', 'jpg', 'png', 'webp', 'svg', 'gif'])){
+         $this->errors['image']['type'] = 'The file type of the ads image must be of a permitted type.';
       } else {
-         $this->errors['image']['required'] = 'The image could not be loaded.';
+
+         $image = $this->upload($this->post['image'], 'public/banners/'.date('Y-m-d').'/');
+         if(!empty($image)){
+            $values['image'] = $image[0]; 
+         } else {
+            $this->errors['image']['required'] = 'The image could not be loaded.';
+         }
+         
       }
+
 
    }
    
