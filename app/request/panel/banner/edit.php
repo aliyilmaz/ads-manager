@@ -59,6 +59,7 @@ if(isset($this->post['title'])){
 
             $image = $this->upload($this->post['image'], 'public/banners/'.date('Y-m-d').'/');
             if(!empty($image)){
+               $this->rm_r($banner['image']);
                $values['image'] = $image[0]; 
             } else {
                $this->errors['image']['required'] = 'The image could not be loaded.';
