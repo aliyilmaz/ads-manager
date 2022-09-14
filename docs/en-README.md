@@ -25,7 +25,7 @@ This command allows the creation of automatically generated files such as .htacc
 
 ### 2.2 Database
 
-The database type where the project contents will be kept is mysql by default, and sqlite and sqlsrv databases can also be preferred. The database name is ads by default.Before proceeding to the installation step, it is necessary to make sure that the database with this name has not been created before.
+The database type where the project contents will be kept is mysql by default, and sqlite and sqlsrv databases can also be preferred. The database name is ads_manager by default.Before proceeding to the installation step, it is necessary to make sure that the database with this name has not been created before.
 
 ### 2.3 Security
 
