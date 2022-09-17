@@ -4613,6 +4613,20 @@ class Mind extends PDO
                 curl_setopt($ch, CURLOPT_REFERER, $options['referer']);
             }
 
+            if(!empty($options['proxy'])){
+                if(!empty($options['proxy']['url'])){
+                    curl_setopt($ch, CURLOPT_PROXY, $options['proxy']['url']);
+                }
+
+                if(!empty($options['proxy']['user'])){
+                    curl_setopt($ch, CURLOPT_PROXYUSERPWD, $options['proxy']['user']);
+                }
+
+                if(!empty($options['proxy']['protocol'])){
+                    curl_setopt($ch, CURLOPT_PROXYTYPE, $options['proxy']['protocol']); 
+                }
+            }
+
             if(!isset($options['header']['User-Agent'])){
                 curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
             } 
