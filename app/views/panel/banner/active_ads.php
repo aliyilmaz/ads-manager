@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="public/assets/pagination.css">
     <link rel="stylesheet" href="public/assets/table.css">
  
-    <title>Active ads | Ad Server</title>
+    <title>Active ads | Ads Manager</title>
 </head>
 
 <body>

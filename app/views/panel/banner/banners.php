@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="public/assets/pagination.css">
     <link rel="stylesheet" href="public/assets/table.css">
  
-    <title>Ads Manager</title>
+    <title>Banners | Ads Manager</title>
 </head>
 
 <body>

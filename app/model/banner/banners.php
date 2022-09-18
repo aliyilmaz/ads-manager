@@ -34,4 +34,5 @@ $options['sort'] = $column.':'.$this->post['sort'];
 $options['navigation'] = [
     'route_path'=>'panel/banners'
 ];
+
 $banners = $this->pagination('banners', $options);
